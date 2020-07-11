@@ -1,0 +1,17 @@
+{
+    "name": "skale02/hello-composer",
+    "description": "This is my first package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sneha kale",
+            "email": "snehakale2827@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+	"autoload": {
+        "psr-4": {"skale02\\HelloComposer\\": "src/"}
+    },
+    "require": {}
+}
